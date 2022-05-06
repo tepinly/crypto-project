@@ -1,0 +1,84 @@
+* {
+  padding: 0.1rem 0.2rem;
+}
+
+body {
+  text-align: center;
+  color: #333;
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 90vh;
+}
+
+#root {
+  max-width: fit-content;
+  margin: auto;
+  padding: 0.3rem;
+}
+
+.cipher-form {
+  width: 15rem;
+  color: antiquewhite;
+  background-color: brown;
+  padding: 1rem 3rem;
+  margin: auto;
+  border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+  margin-top: 3rem;
+}
+
+label {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+
+input {
+  border: 0rem solid #333;
+  border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+  padding: .3rem .2rem;
+  width: 75%;
+}
+
+button {
+  border: 0rem solid #333;
+  border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+  background-color: burlywood;
+  padding: .4rem 1.1rem;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+select {
+  background-color: burlywood;
+  border: 0rem solid #333;
+  border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+  padding: .3rem .5rem;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.output {
+  max-width: 60rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
