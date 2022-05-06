@@ -2,4 +2,7 @@
 
 Featuirng RSA, AES, DES encryption & decryption
 
-Open `index.html` file in `src` directory
+## How to run
+
+Download the project & make sure npm is installed
+run `npm init` in the directory terminal, then `npm run dev`
