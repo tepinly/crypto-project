@@ -39,6 +39,7 @@ export default App = () => {
 
   useEffect(() => {
     if (cipher == "rsa") {
+      document.getElementById("cipherKey").value = "";
       document.getElementById("cipherKey").disabled = true;
     } else document.getElementById("cipherKey").disabled = false;
   }, [cipher]);
@@ -93,7 +94,6 @@ export default App = () => {
 
         <button type="submit">Submit</button>
       </form>
-
       <div className="output">
         <h3>Result</h3>
         {result}
